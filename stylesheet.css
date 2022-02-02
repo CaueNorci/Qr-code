@@ -2,8 +2,42 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    font-size: 20px;
-    background-color: rgb(145, 133, 109);
-    color: cornsilk;
+    font-size: 18px;
+    background-color: rgb(214, 226, 240);
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    align-items: center;
+    
+}
 
+section{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 550px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px; 
+}
+
+.qr{
+    width: 250px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.att{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    color: rgb(0, 0, 0);
+    font: bold;
 }
